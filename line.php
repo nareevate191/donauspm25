@@ -5,9 +5,9 @@ function send_LINE($msg){
  $access_token = 'Si7dwjnHgZSpC/to7Xr+WXQ7vyOV5XHSjUKu/nYfBBouzEKoLKPFTmhx2H4p400bWoQx2nI3XX7R+LoCR3gsW8QOoRsy8BagJSNQOBNebbjy1WEINdVjwgZJ0g4fhY4DRToy6TLzMpJuyq+QSF6QfAdB04t89/1O/w1cDnyilFU='; 
 
   $messages = [
-        'type' => 'text',
+        //'type' => 'text',
         'text' => $msg
-        //'text' => $text
+        'text' => $text
       ];
 
       // Make a POST Request to Messaging API to reply to sender
